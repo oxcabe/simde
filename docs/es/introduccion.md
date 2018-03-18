@@ -1,12 +1,3 @@
----
-layout: default
-lang: es
-id: introduccion
-title: Introducción
-prev: index.html
-next: instruction-level-paralelism.html
----
-
 ## ¿Qué es SIMDE?
 
 SIMDE es un simulador de Arquitecturas **ILP** (Instruction Level Parallelism) que incluye sus dos vertientes más características: 

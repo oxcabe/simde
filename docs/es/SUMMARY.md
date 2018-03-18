@@ -2,88 +2,67 @@
 
 ### Inicio
   
+
+### Fundamentos
+
 * [ILP](instruction-level-paralelism.md)
 
-### Interfaz
-  
-* [Menú archivo](menu-archivo.md)
-  
-* [Menú ver](menu-ver.md)
-  
-* [Menú configurar](menu-configurar.md)
-  
-* [Menú ejecutar](menu-ejecutar.md)
-  
-* [Menú ventana](menu-ventana.md)
-  
-* [Menú ayuda](menu-ayuda.md)
-  
-* [Barra de herramientas estándar](barra-de-herramientas-estandar.md)
-  
-* [Barra de herramientas de ejecución](barra-de-herramientas-de-ejecucion.md)
-  
-* [Ventana de instrucciones](ventana-de-instrucciones.md)
-  
-* [Configurar párametros superescalar](configurar-parametros-superescalar.md)
-  
-* [Ventana registros memoria](ventana-registros-memoria.md)
-  
-* [Ventana de simulación](ventana-simulacion.md)
+### Estructura de las máquinas 
 
-### Desarrollo
-  
-* [Fichero codigo secuencial](fichero-de-codigo-secuencial.md)
-  
-* [Ejemplo de código secuencial](ejemplo-de-codigo-secuencial.md)
+* [Estructura común](machine-structure/common-structure.md)
 
-### Características comunes
-   
-* [Estructura común](estructura-comun.md)
+* [Memoria](machine-structure/memory.md)
 
-* [Juego de instrucciones](juego-de-instrucciones.md)
+* [Modos de direccionamiento](machine-structure/addressing-mode.md)
 
-* [Memoria](memoria.md)
+* [Registros de propósito general](machine-structure/general-purpose-registers.md)
 
-* [Modos de direccionamiento](modos-de-direccionamiento.md)
+* [Registros de punto flotante](machine-structure/floating-point-registers.md)
 
-* [Registros de propósito general](registros-de-proposito-general.md)
+* [Unidades funcionales](machine-structure/functional-units.md)
 
-* [Registros de punto flotante](registros-de-punto-flotante.md)
+#### Máquina superescalar
+  
+* [Máquina superescalar](superescalar-machine/maquina-superescalar.md)
+  
+* [Unidad de prebúsqueda](superescalar-machine/prefetch.md)
+  
+* [Decodificador](superescalar-machine/decoder.md)
+  
+* [ROB <-> Registros](superescalar-machine/reorderbuffer-mapper.md)
+  
+* [Prediccion de salto](superescalar-machine/jump-prediction-table.md)
+  
+* [Reorder Buffer](superescalar-machine/reorder-buffer.md)
+  
+* [Estaciones de reserva](superescalar-machine/reserve-stations.md)
+  
+* [Cálculo de direcciones](superescalar-machine/address-calculus.md)
 
-* [Unidades funcionales](unidades-funcionales.md)
+### Empezando a desarrollar
 
-###  Máquina superescalar
-  
-* [Máquina superescalar](maquina-superescalar.md)
-  
-* [Unidad de prebúsqueda](unidad-de-prebusqueda.md)
-  
-* [Decodificador](decodificador.md)
-  
-* [ROB <-> Registros](rob-registros.md)
-  
-* [Prediccion de salto](tabla-de-prediccion-de-salto.md)
-  
-* [Reorder Buffer](reorder-buffer.md)
-  
-* [Estaciones de reserva](estaciones-de-reserva.md)
-  
-* [Cálculo de direcciones ](calculo-de-direcciones.md)
+* [Código secuencial](development/sequential-code.md)
 
-### Acerca de 
+* [Juego de instrucciones](development/instruction-set.md)
+
+* [Uso básico](development/basic-usage.md)
+
+* [Depurando](development/debugging.md)
+
+### Acerca de
+
+* [Referencias](about/references.md)
   
-* [Referencias](referencias.md)
+* [Historial](about/historical.md)
   
-* [Historial](historial.md)
-  
-* [Contactar con el autor](autor.md)
+* [Contactar con el autor](about/authors.md)
 
 ### Extra
   
-* [Bloques básicos](bloques-basicos.md)
+* [Bloques básicos](extra/basic-blocks.md)
   
-* [Desenrollado de bucles ](desenrollado-de-bucles.md)
+* [Desenrollado de bucles](extra/loop-unrolling.md)
   
-* [Software Pipelining](software-pipelining.md)
+* [Software Pipelining](extra/software-pipelining.md)
   
-* [Códigos de ejemplo](codigos-ejemplo.md)
+* [Códigos de ejemplo](extra/code-examples.md)

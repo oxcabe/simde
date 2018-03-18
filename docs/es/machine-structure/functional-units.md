@@ -1,12 +1,3 @@
----
-layout: default
-lang: es
-id: unidades-funcionales
-title: Unidades funcionales
-prev: registros-de-punto-flotante.html
-next: maquina-superescalar.html
----
-
 Las Unidades Funcionales (UF) son las únidades básicas de ejecución de la máquina.
 
 Son segmentadas, y cada etapa del pipeline dura 1 ciclo exactamente. De esta manera, cada ciclo puede entrar una nueva instrucción a menos que tenga una dependencia verdadera con la instrucción anterior. En ese caso, deberá esperar hasta que la instrucción anterior haya acabado completamente su ejecución. A este tiempo lo denominamos latencia de la UF, y coincide con el número de etapas del pipeline.
