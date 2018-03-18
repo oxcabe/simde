@@ -2,4 +2,4 @@
     "title": "SIMDE Official Docs",
     "root": "./docs",
     "plugins":  [ "ace"]
-  }
+}
