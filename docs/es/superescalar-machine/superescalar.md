@@ -1,13 +1,4 @@
----
-layout: default
-lang: es
-id: maquina-superescalar
-title: Máquina superescalar
-prev: unidades-funcionales.html
-next: unidad-de-prebusqueda.html
----
-
-![](imgs/bm40.png)
+![](../imgs/bm40.png)
 
 Características
 

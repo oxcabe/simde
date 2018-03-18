@@ -7,4 +7,3 @@ La dirección se calcula sumando al valor del registro indicado (Rn) el valor in
 // En este ejemplo se accede a la palabra de memoria 5 (3 + 2) para guardar el contenido de R1
 ADDI	 R4 R0 #2
 SW		 R1 3(R4)
-

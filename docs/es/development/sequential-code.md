@@ -53,3 +53,9 @@ LOOP:
 	ADDI	R3 R3 #1
 	BNE		R2 R5 LOOP
 {%endace%}
+
+## Gestión de errores
+
+En caso de que el código contenga algún error, este se indicará debajo del formulario. El analizador sintáctico del simulador se detendrá una vez que en encuentre el primer error, con lo cual el primer error puede enmascarar otros.
+
+![](../imgs/code-error.png)

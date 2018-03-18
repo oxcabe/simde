@@ -1,12 +1,3 @@
----
-layout: default
-lang: es
-id: desenrolladodebucles
-title: Desenrollado de bucles
-prev: bloques-basicos.html
-next: software-pipelining.html
----
-
 Técnica consistente en replicar el cuerpo de un bucle varias veces. De esta manera se incrementa el número de operaciones disponibles y se puede aprovechar mejor el ILP. 
 
 Además disminuye la penalización de las operaciones de salto, al disminuir su frecuencia en el código.

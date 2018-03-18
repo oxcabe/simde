@@ -20,23 +20,23 @@
 * [Registros de punto flotante](machine-structure/floating-point-registers.md)
 
 * [Unidades funcionales](machine-structure/functional-units.md)
+  
+### Máquina superescalar
 
-#### Máquina superescalar
-  
-* [Máquina superescalar](superescalar-machine/maquina-superescalar.md)
-  
+* [Máquina superescalar](superescalar-machine/superescalar.md)
+    
 * [Unidad de prebúsqueda](superescalar-machine/prefetch.md)
-  
+
 * [Decodificador](superescalar-machine/decoder.md)
-  
-* [ROB <-> Registros](superescalar-machine/reorderbuffer-mapper.md)
-  
+
+* [ROB <-> Registros](superescalar-machine/rob-reg-mapper.md)
+
 * [Prediccion de salto](superescalar-machine/jump-prediction-table.md)
-  
+
 * [Reorder Buffer](superescalar-machine/reorder-buffer.md)
-  
+
 * [Estaciones de reserva](superescalar-machine/reserve-stations.md)
-  
+
 * [Cálculo de direcciones](superescalar-machine/address-calculus.md)
 
 ### Empezando a desarrollar
@@ -47,7 +47,7 @@
 
 * [Uso básico](development/basic-usage.md)
 
-* [Depurando](development/debugging.md)
+* [Depuración](development/debugging.md)
 
 ### Acerca de
 

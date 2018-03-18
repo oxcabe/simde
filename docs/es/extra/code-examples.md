@@ -1,15 +1,7 @@
----
-layout: default
-lang: es
-id: codigos-ejemplo
-title: Códigos de ejemplo
-prev: software-pipelining.html
----
-
 {%ace lang='asm'%}
 // SIMDE v0.1
 // Autor: Ivan Castilla Rodriguez
-// Utilidad: Programa de testeo de SWMDE
+// Utilidad: Programa de testeo de SIMDE
 // Comentarios: El programa presupone q en la posicion 50 (R2) de memori tienes un vector de
 // 16 elementos y quieres sumar a cada elemento una cantidad fija (en la posicion de memoria
 // 40). El resultado se coloca a partir de la posicion 70 (R3) de memoria.
@@ -29,9 +21,9 @@ LOOP:
 {%endace%}
 
 {%ace lang='asm'%}
-// SWMDE v1.0
+// SIMDE v1.0
 // Autor: Iván Castilla Rodríguez
-// Utilidad: Programa de testeo de SWMDE
+// Utilidad: Programa de testeo de SIMDE
 // Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes
 // un vector de de 16 elementos y quieres sumar a cada elemento una cantidad 
 // fija (en la posición de memoria 40). El resultado se coloca a partir de la 
@@ -58,9 +50,9 @@ LOOP:
 {%endace%}
 
 {%ace lang='asm'%}
-// SWMDE v1.0
+// SIMDE v1.0
 // Autor: Iván Castilla Rodríguez
-// Utilidad: Programa de testeo de SWMDE
+// Utilidad: Programa de testeo de SIMDE
 // Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes
 // un vector de de 16 elementos y quieres sumar a cada elemento una cantidad 
 // fija (en la posición de memoria 40). El resultado se coloca a partir de la 
@@ -93,9 +85,9 @@ LOOP:
 {%endace%}
 
 {%ace lang='asm'%}
-// SWMDE v1.0
+// SIMDE v1.0
 // Autor: Iván Castilla Rodríguez
-// Utilidad: Programa de testeo de SWMDE
+// Utilidad: Programa de testeo de SIMDE
 // Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes
 // un vector de de 16 elementos y quieres sumar a cada elemento una cantidad 
 // fija (en la posición de memoria 40). El resultado se coloca a partir de la 
@@ -140,9 +132,9 @@ LOOP:
 {%endace%}
 
 {%ace lang='asm'%}
-// SWMDE v0.1
+// SIMDE v0.1
 // Autor: Iván Castilla Rodríguez
-// Utilidad: Programa de testeo de SWMDE
+// Utilidad: Programa de testeo de SIMDE
 // Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes un vector de
 // 5 elementos y quieres sumar a cada elemento una cantidad fija (en la posición de memoria
 // 40). El resultado se coloca a partir de la posición 70 (R3) de memoria.
@@ -172,9 +164,9 @@ LOOP2:
 {%endace%}
 
 {%ace lang='asm'%}
-// SWMDE v0.1
+// SIMDE v0.1
 // Autor: Iván Castilla Rodríguez
-// Utilidad: Programa de testeo de SWMDE que crea la sucesión An = (An-1 * 2) + 3 durante
+// Utilidad: Programa de testeo de SIMDE que crea la sucesión An = (An-1 * 2) + 3 durante
 // 5 iteraciones y con A0 = 1
 // Comentarios: Este programa usa únicamente operaciones enteras y bucles sin hacer uso de 
 // instrucciones de memoria ni de punto flotante
@@ -191,9 +183,9 @@ LOOP:
 {%endace%}
 
 {%ace lang='asm'%}
-// SWMDE v0.1
+// SIMDE v0.1
 // Autor: Iván Castilla Rodríguez
-// Utilidad: Programa de testeo de SWMDE
+// Utilidad: Programa de testeo de SIMDE
 // Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes un vector de
 // 16 elementos y quieres sumar a cada elemento una cantidad fija (en la posición de memoria
 // 40). El resultado se coloca a partir de la posición 70 (R3) de memoria.
@@ -223,9 +215,9 @@ LOOP:
 {%endace%}
 
 {%ace lang='asm'%}
-// SWMDE v0.1
+// SIMDE v0.1
 // Autor: Iván Castilla Rodríguez
-// Utilidad: Programa de testeo de SWMDE
+// Utilidad: Programa de testeo de SIMDE
 // Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes un vector de
 // 16 elementos y quieres sumar a cada elemento una cantidad fija (en la posición de memoria
 // 40). El resultado se coloca a partir de la posición 70 (R3) de memoria.
@@ -279,9 +271,9 @@ XOR  R10 R5 R6
 {%endace%}
 
 {%ace lang='asm'%}
-// SWMDE v1.0
+// SIMDE v1.0
 // Autor: Iván Castilla Rodríguez
-// Utilidad: Programa de testeo de SWMDE
+// Utilidad: Programa de testeo de SIMDE
 // Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes
 // un vector de de 16 elementos y quieres sumar a cada elemento una cantidad 
 // fija (en la posición de memoria 40). El resultado se coloca a partir de la 
@@ -468,9 +460,9 @@ NOOP:
 {%endace%}
 
 {%ace lang='asm'%}
-// SWMDE v1.0
+// SIMDE v1.0
 // Autor: Iván Castilla Rodríguez
-// Utilidad: Programa de testeo de SWMDE
+// Utilidad: Programa de testeo de SIMDE
 // Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes
 // un vector de de 16 elementos y quieres sumar a cada elemento una cantidad 
 // fija (en la posición de memoria 40). El resultado se coloca a partir de la 

@@ -1,13 +1,3 @@
----
-layout: default
-lang: es
-id: estaciones-de-reserva
-title: Estaciones de reserva
-prev: reorder-buffer.html
-next: calculo-de-direcciones.html
----
-
-
 Estructura en la que permanecen las instrucciones mientras esperan por sus operandos o se ejecutan en la U. F. correspondiente.
 Tienen tantas entradas como una más que el número de etapas de la U.F. correspondiente multiplicada por el número de U.F. de ese tipo que haya.
 
