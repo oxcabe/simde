@@ -1,3 +1,5 @@
+# Paralelismo a Nivel de Instrucción
+
 El Paralelismo a Nivel de Instrucción es la capacidad de un conjunto de instrucciones de poder ser ejecutadas en paralelo.
 
 Existen numerosas técnicas que intentan explotar esta capacidad, desde la segmentación hasta la emisión de múltiples instrucciones por ciclo. Es precisamente con este último grupo de máquinas con las que trabaja este simulador.

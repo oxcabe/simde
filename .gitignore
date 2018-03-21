@@ -8,3 +8,5 @@ legacy/
 coverage/
 target/www/
 /_book
+fixgitbook.bat
+package-lock.json

@@ -7,37 +7,9 @@
 
 * [ILP](instruction-level-paralelism.md)
 
-### Estructura de las máquinas 
-
-* [Estructura común](machine-structure/common-structure.md)
-
-* [Memoria](machine-structure/memory.md)
-
-* [Modos de direccionamiento](machine-structure/addressing-mode.md)
-
-* [Registros de propósito general](machine-structure/general-purpose-registers.md)
-
-* [Registros de punto flotante](machine-structure/floating-point-registers.md)
-
-* [Unidades funcionales](machine-structure/functional-units.md)
-  
-### Máquina superescalar
+* [Estructura de las máquinas](machine-structure/common-structure.md)
 
 * [Máquina superescalar](superescalar-machine/superescalar.md)
-    
-* [Unidad de prebúsqueda](superescalar-machine/prefetch.md)
-
-* [Decodificador](superescalar-machine/decoder.md)
-
-* [ROB <-> Registros](superescalar-machine/rob-reg-mapper.md)
-
-* [Prediccion de salto](superescalar-machine/jump-prediction-table.md)
-
-* [Reorder Buffer](superescalar-machine/reorder-buffer.md)
-
-* [Estaciones de reserva](superescalar-machine/reserve-stations.md)
-
-* [Cálculo de direcciones](superescalar-machine/address-calculus.md)
 
 ### Empezando a desarrollar
 

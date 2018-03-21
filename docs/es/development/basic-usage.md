@@ -1,6 +1,9 @@
+# Uso básico
 Un caso básico de uso de SIMDE sería comprobar como se pueden optimizar algoritmos mediante el uso de distintas configuraciones de máquina.
 
 Para ello lo primero que hemos de hacer es desarrollar nuestro algoritmo haciendo uso del juego de referencia de instucciones y de las limitaciones mencionadas.
+
+## Cargar código
 
 Una vez hecho esto, cargaremos el programa, simplemente tenemos que hacer click en la ópcion **Cargar**, en el **menú Archivo**.
 
@@ -16,6 +19,8 @@ Ahora podremos hacer ejecuciones básicas del código cargado presionando el bot
 
 Para comprobar que los resultados son los esperados podemos hacer uso de las [técnicas de depuración mencionadas en la siguiente sección](./debugging.md).
 
+## Ejecución por lotes
+
 Una vez que hayamos verificado el funcionamiento del algoritmo, podemos hacer uso del modo de ejecución por lotes, situado en el menú de **Ejecución**, para realizar pruebas del tiempo de ejecución del algoritmo.
 
 ![](../imgs/batch-mode-options.png)
@@ -27,6 +32,8 @@ En esta sección se puede configurar además del número de pruebas, el porcenta
 Al terminar, aparecerá un modal mostrándonos una serie de datos estadísticos sobre la prueba que hemos realizado.
 
 ![](../imgs/batch-mode-results.png)
+
+## Configurar máquina superescalar
 
 Ahora, podemos ir a la sección de **Configurar máquina Superescalar** en el menú de **Opciones** y repetir la prueba con distintos valores.
 
