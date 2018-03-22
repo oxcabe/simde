@@ -1,3 +1,7 @@
+---
+showToc: false
+---
+
 Técnica de reorganización de bucles, de tal manera que en cada iteración se construye con operaciones elegidas de distintas iteraciones del bucle original.
 
 ### Bucle original

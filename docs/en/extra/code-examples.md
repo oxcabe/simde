@@ -1,11 +1,3 @@
----
-layout: default
-lang: en
-id: codigos-ejemplo
-title: Example codes
-prev: en/software-pipelining.html
----
-
 {%ace lang='asm'%}
 // SIMDE v0.1
 // Autor: Ivan Castilla Rodriguez

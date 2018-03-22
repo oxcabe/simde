@@ -2,7 +2,7 @@
 
 ![](../imgs/bm40.png)
 
-Características
+## Características
 
 1. Control de la máquina basado en el algoritmo de Tomasulo
 

@@ -1,1 +1,7 @@
 .ace { margin: 1rem 0;}
+
+.page-toc {
+    float: none;
+    display: inline-block;
+    min-width: 400px;
+}

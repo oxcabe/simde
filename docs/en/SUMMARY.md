@@ -1,89 +1,40 @@
 # Summary
 
-### Begin
+### Start
   
+
+### Fundaments
+
 * [ILP](instruction-level-paralelism.md)
 
-### Interface
-  
-* [File menu](menu-archivo.md)
-  
-* [View menu](menu-ver.md)
-  
-* [Config menu](menu-configurar.md)
-  
-* [Exec menu](menu-ejecutar.md)
-  
-* [Window menu](menu-ventana.md)
-  
-* [Help menu](menu-ayuda.md)
-  
-* [Standard Tool Bar](barra-de-herramientas-estandar.md)
-  
-* [Execution Tool Bar](barra-de-herramientas-de-ejecucion.md)
-  
-* [Instruction Window](ventana-de-instrucciones.md)
-  
-* [Superscalar Configuration](configurar-parametros-superescalar.md)
-  
-* [Register and Memory Window](ventana-registros-memoria.md)
-  
-* [Simulation window](ventana-simulacion.md)
+* [Machine structure](machine-structure/common-structure.md)
 
-### Development
-  
-* [Sequential Code File](fichero-de-codigo-secuencial.md)
-  
-* [Sequential Code Example](ejemplo-de-codigo-secuencial.md)
+* [Superescalar Machine](superescalar-machine/superescalar.md)
 
-### Shared characteristics
-   
-* [Shared structure](estructura-comun.md)
+### Starting to develop
 
-* [Instruction Set](juego-de-instrucciones.md)
+* [Sequential Code](development/sequential-code.md)
 
-* [Memory](memoria.md)
+* [Instruction set](development/instruction-set.md)
 
-* [Addressing modes](modos-de-direccionamiento.md)
+* [Basic usage](development/basic-usage.md)
 
-* [General Purpose Registers](registros-de-proposito-general.md)
+* [Debugging](development/debugging.md)
 
-* [Floating Point Registers](registros-de-punto-flotante.md)
+### About
 
-* [Functional Units](unidades-funcionales.md)
-
-###  Superescalar Machine
+* [Reference](about/references.md)
   
-* [Superescalar Machine](maquina-superescalar.md)
+* [Historical](about/historical.md)
   
-* [Prefetch Unit](unidad-de-prebusqueda.md)
-  
-* [Decoder](decodificador.md)
-  
-* [ROB <-> Registers](rob-registros.md)
-  
-* [Branch prediction](tabla-de-prediccion-de-salto.md)
-  
-* [Reorder Buffer](reorder-buffer.md)
-  
-* [Reserve Stations](estaciones-de-reserva.md)
-  
-* [Memory Address ALU](calculo-de-direcciones.md)
-
-### About 
-  
-* [References](referencias.md)
-  
-* [History](historial.md)
-  
-* [Contact with the author](autor.md)
+* [Authors](about/authors.md)
 
 ### Extra
   
-* [Basic blocks](bloques-basicos.md)
+* [Basic blocks](extra/basic-blocks.md)
   
-* [Loop unrolling](desenrollado-de-bucles.md)
+* [Loop unrolling](extra/loop-unrolling.md)
   
-* [Software Pipelining](software-pipelining.md)
+* [Software Pipelining](extra/software-pipelining.md)
   
-* [Example codes](codigos-ejemplo.md)
+* [Example codes](extra/code-examples.md)

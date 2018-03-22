@@ -1,11 +1,8 @@
 ---
-layout: default
-lang: en
-id: software-pipelining
-title: Software Pipelining
-prev: en/desenrollado-de-bucles.html
-next: en/codigos-ejemplo.html
+showToc: false
 ---
+
+Técnica de reorganización de bucles, de tal manera que en cada iteración se construye con operaciones elegidas de distintas iteraciones del bucle original.
 
 ### Original loop
 

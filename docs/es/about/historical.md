@@ -1,3 +1,7 @@
+---
+showToc: false
+---
+
 ## v1.0.0 16/06/2017
 
 Liberada la versión inicial con soporte para la máquina superescalar.
