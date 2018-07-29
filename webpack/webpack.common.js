@@ -22,8 +22,29 @@ module.exports = function (options) {
                   //       typeCheck: true
                   // }
             },
-            { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
-            { enforce: "pre", test: /\.js$/, loader: "source-map-loader" },
+            { 
+                  test: /\.tsx?$/, 
+                  use: [
+                        {
+                              loader: 'babel-loader',
+                              options: {
+                                    presets: ['@babel/preset-env', '@babel/preset-react'],
+                              }
+                        },
+                        {
+                              loader: 'awesome-typescript-loader' 
+                        },
+                  ]
+            },
+            {
+                  test: /\.jsx?$/,
+                  exclude: /node_modules/,
+                  loader: 'babel-loader',
+                  options: {
+                        presets: ['@babel/preset-env', '@babel/preset-react'],
+                  }
+            },
+            { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' },
             {
                test: /\.scss$/,
                loader: ExtractTextPlugin.extract('css-loader!sass-loader')

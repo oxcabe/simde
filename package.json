@@ -43,9 +43,6 @@
     "@types/react-dom": "16.0.3",
     "@types/react-i18next": "4.6.0",
     "awesome-typescript-loader": "3.3.0",
-    "babel-loader": "7.1.2",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.11",
     "browser-sync-webpack-plugin": "^1.1.4",
@@ -80,8 +77,13 @@
     "node": ">=4"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/preset-env": "^7.0.0-beta.55",
+    "@babel/preset-react": "^7.0.0-beta.55",
+    "@babel/register": "^7.0.0-beta.55",
     "@types/node": "8.0.51",
     "ava": "0.23.0",
+    "babel-loader": "^8.0.0-beta",
     "codecov": "3.0.0",
     "coveralls": "3.0.0",
     "html-webpack-plugin": "2.30.1",
