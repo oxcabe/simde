@@ -16,6 +16,7 @@ ADD     R3 R0 R2
 `;
 
 
+
 const input2 = `1
 LF F0 (R4)
 `;
@@ -25,6 +26,15 @@ LOOP:
 ADDF F1 F1 F0
 BNE	R2 R5 LOOP
 `;
+
+
+const inputWithoutLineNumber = 
+`// This is a sample code without line numbers
+ADDI	R2 R0 #50
+ADD     R3 R0 R2
+LOOP:
+BNE	R2 R5 LOOP
+`
 
 // =============================
 // PARSING ERRORS
@@ -399,4 +409,10 @@ FIN:
 	ADDI	R0 R0 #0`;
 	let code: Code = new Code();
 	t.notThrows(() => code.load(input));
+});
+
+test('Code without line number should work', t => {
+	let code: Code = new Code();
+	code.load(inputWithoutLineNumber);
+	t.deepEqual(3, code.lines, 'Lines message should have been 3');
 });

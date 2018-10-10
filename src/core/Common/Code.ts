@@ -119,20 +119,27 @@ export class Code {
         let lexema: Lexema;
         let actual: BasicBlock;
         let newBlock: boolean = true;
+        let linesNumberSpecified = false;
         // First we need the number of code lines
         lexema = this._lexer.lex();
 
         if (lexema.value !== LEX.LINESNUMBER) {
-            throw new Error('Error parsing lines number');
+            this._lines = this.calculateLinesNumber(input);
+            linesNumberSpecified = true;
+        } else {
+            this._lines = +lexema.yytext;
         }
-        this._lines = +lexema.yytext;
 
         this.instructions.length = this._lines;
 
         for (let i = 0; i < this._lines; i++) {
             this.instructions[i] = new Instruction();
             this.instructions[i].id = i;
-            lexema = this._lexer.lex();
+            if (linesNumberSpecified) {
+                linesNumberSpecified = false;
+            } else {
+                lexema = this._lexer.lex();
+            }
 
             if (lexema.value === LEX.LABEL) {
                 this._numberOfBlocks++;
@@ -273,6 +280,13 @@ export class Code {
 
     private isJump(opcode: number) {
         return (opcode === Opcodes.BEQ) || (opcode === Opcodes.BGT) || (opcode === Opcodes.BNE);
+    }
+
+    private calculateLinesNumber(input: string): number {
+        return input.split('\n')
+            .filter ( line => !line.match(/.*\/\//))
+            .filter(line => !line.match(/.*\:/))
+            .filter( line => !(line.trim().length == 0)).length;
     }
 
 }
