@@ -58,7 +58,7 @@
     "i18next-localstorage-cache": "1.1.1",
     "i18next-xhr-backend": "1.5.0",
     "lex": "1.7.9",
-    "node-sass": "4.9.0",
+    "node-sass": "4.14.1",
     "react": "16.1.0",
     "react-bootstrap": "0.31.5",
     "react-color": "^2.14.0",
