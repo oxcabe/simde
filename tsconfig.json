@@ -9,6 +9,7 @@
       "strictNullChecks": false,
       "declaration": true,
       "importHelpers": true,
+      "skipLibCheck": true,
       "sourceMap": true,
       "listFiles": false,
       "traceResolution": false,
